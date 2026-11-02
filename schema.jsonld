@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-richmond-va#service",
+      "name": "Website design in Richmond, VA",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-richmond-va",
+      "description": "Website design in Richmond, VA for businesses across the Richmond metro: custom sites, brand identity and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Richmond, Virginia",
+          "sameAs": "https://www.wikidata.org/wiki/Q43421"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Chesterfield County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Henrico County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Richmond city, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Hanover County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Prince George County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Petersburg city, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Powhatan County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Dinwiddie County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Goochland County, Virginia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "New Kent County, Virginia"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Richmond businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Virginia",
+          "item": "https://www.lemurianstudios.com/services/web-design-virginia"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Richmond, VA",
+          "item": "https://www.lemurianstudios.com/services/website-design-richmond-va"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you take on businesses in Chesterfield and Henrico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We do. They're the two most populated parts of the metro, and we work with businesses there the same way we do in the city."
+          }
+        }
+      ]
+    }
+  ]
+}
